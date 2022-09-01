@@ -1,6 +1,6 @@
 # Venue Booking Assignment
 
-This is an assignment project for an university subject. It has the basic function such as login system, view and book available venue and check your booked venue. It is done by using Android Studio.
+This is an assignment project for an university subject. It has the basic function such as login system, view and book available venue and check your booked venue detail. It is done by using Android Studio.
 
 # System screenshot
 
