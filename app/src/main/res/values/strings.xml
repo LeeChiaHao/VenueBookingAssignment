@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">OOP_Assignment</string>
+
+    // String for log in
+    <string name="registerHint"><u>New user? Click here to register!</u></string>
+    <string name="showID">Welcome to Venue Reservation System   </string>
+
+    // String for register form
+    <string name="create_your_account">Create Your Account</string>
+    <string name="username">username</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_stuid">Enter Your Student ID</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="register">Register</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirm_your_password">Re-enter Your Password</string>
+    <string name="we">Welcome</string>
+
+    // Register Error Hint
+    <string name="nameEmpty">Name Cannot Be Empty!</string>
+    <string name="idEmpty">Student ID Cannot Be Empty!</string>
+    <string name="existErr">Student ID Exist!</string>
+    <string name="pwdEmpty">Password Cannot Be Empty!</string>
+    <string name="noMatch">Password Not Matched!</string>
+
+    // String for Main menu
+    <string name="bookmenu">Booking</string>
+    <string name="historymenu">History</string>
+    <string name="logoutmenu">Log Out</string>
+
+    // String for booking form
+    <string name="agreement">I agree to take fully responsibility of the event if any damage occured</string>
+    <string name="yyyy_hint">YYYY</string>
+    <string name="mm_hint">MM</string>
+    <string name="dd_hint">DD</string>
+
+    // booking form error hint
+    <string name="EmptyError">All information must be fill !</string>
+    <string name="BookedError">This time had been booked, Please change to another time! </string>
+    <string name="TimeError">Time is Invalid !</string>
+    <string name="DateError">Date is Invalid !</string>
+    <string name="AgreeError">You must agree this to continue !</string>
+    <string name="desLength">Descirption is too long!</string>
+    <string name="bookAdy">You have booked this venue at the same date, cancel the previous one to book again</string>
+
+    // String for history menu
+    <string name="history_menu"> You do not book any venues yet! Click the button below to book! </string>
+
+    // Unbook Form
+    <string name="unBookForm">UnBook Form</string>
+    <string name="venueID">Venue ID: </string>
+    <string name="eventType">Event Type: </string>
+    <string name="eventDes">Event Description: </string>
+    <string name="year">Year: </string>
+    <string name="month">Month: </string>
+    <string name="day">Day: </string>
+    <string name="date">Date: </string>
+    <string name="startTime">Start Time: </string>
+    <string name="endTime">End Time: </string>
+    <string name="bookTime">Booked Time: </string>
+    <string name="twoDaysHint">ATTENTION: You are not allowed to cancel the reservation 2 days before the booking date</string>
+    <string name="BOOK">BOOK</string>
+    <string name="UNBOOK">UNBOOK</string>
+    <string name="tooNear">SEE THE ATTENTION ABOVE !</string>
+
+    // POP_UP
+    <string name="logoutPop">Are you sure want to exit the system ?</string>
+    <string name="askUnBook">Are you sure want to unbook the following venue ? </string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="mmu_robot">MMU Robot</string>
+    <string name="apply">APPLY</string>
+    <string name="booking_form">Booking Form</string>
+    <string name="description">Describe in 30 words long</string>
+</resources>

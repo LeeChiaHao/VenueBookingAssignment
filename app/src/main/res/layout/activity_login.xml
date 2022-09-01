@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/mmuImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/studentID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62"
+        app:srcCompat="@mipmap/mmu_logo"
+        tools:src="@mipmap/mmu_logo"
+        tools:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/Start_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:progress="0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:visibility="gone" />
+
+
+    <EditText
+        android:id="@+id/studentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="StudentID"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/Start_progress"
+        app:layout_constraintEnd_toEndOf="@+id/mmuImage"
+        app:layout_constraintStart_toStartOf="@+id/mmuImage"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Pasword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/studentID"
+        app:layout_constraintStart_toStartOf="@+id/studentID"
+        app:layout_constraintTop_toBottomOf="@+id/studentID"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_effect"
+        android:text="Log In"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/SIDwrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="This Student ID is not exist!"
+        android:textColor="#E40E0E"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/studentID"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@+id/studentID"
+        app:layout_constraintTop_toBottomOf="@+id/studentID"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/PSwrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="This password is wrong!"
+        android:textColor="#C10C0C"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerHint"
+        android:textColor="#0C0202"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogIn"
+        app:layout_constraintVertical_bias="0.24000001" />
+
+    <TextView
+        android:id="@+id/gotEmptyLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/EmptyError"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/studentID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

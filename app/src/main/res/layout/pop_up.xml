@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+        <TextView
+            android:id="@+id/popUpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/askUnBook"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/unbookVenueID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/Black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/unbookDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/Black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/yesyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/yes"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/nono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/no"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

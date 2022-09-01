@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="tabColor">#00BCD4</color>
+    <color name="ERRORCOLOR">#FA0707</color>
+    <color name="Black">#000000</color>
+    <color name="lightwhite">#FFFFFF</color>
+    <color name="green">#FF62D867</color>
+    <color name="buttonClicked">#D3C3950A</color>
+    <color name="buttonColor">#E8D52E</color>
+</resources>

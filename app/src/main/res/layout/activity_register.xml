@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="-326dp"
+        android:layout_marginEnd="26dp"
+        android:layout_toEndOf="@+id/editText3"
+        android:background="@color/lightwhite"
+        android:contentDescription="@android:string/VideoView_error_text_invalid_progressive_playback"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:text="@string/create_your_account"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:hint="@string/enter_your_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:text="@string/nameEmpty"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/NoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:text="@string/idEmpty"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/IDExists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:text="@string/existErr"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/NoPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="@string/pwdEmpty"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/NoPass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="@string/pwdEmpty"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/wrongPass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="@string/noMatch"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:hint="@string/enter_your_stuid"
+        android:importantForAutofill="no"
+        android:inputType="textVisiblePassword"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:hint="@string/enter_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:hint="@string/confirm_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/lightwhite"
+        />
+
+    <TextView
+        android:id="@+id/gotEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/EmptyError"
+        android:textColor="@color/ERRORCOLOR"
+        android:visibility="gone"
+        tools:visibility="visible" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryMenu">
+
+   <ListView
+       android:id="@+id/showBooked"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:clickable="true"
+       android:focusable="true" />
+   <LinearLayout
+       android:id="@+id/historyEmpty"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:orientation="vertical"
+       android:visibility="visible">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginHorizontal="15dp"
+          android:layout_marginBottom="8dp"
+          android:text="@string/history_menu"
+          android:textAlignment="center"
+          android:textColor="@color/ERRORCOLOR"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          />
+      <Button
+          android:id="@+id/bookbtn2"
+          android:layout_width="125dp"
+          android:layout_height="148dp"
+          android:layout_marginStart="140dp"
+          android:background="@drawable/book_effect" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:fontFamily="@font/alfa_slab_one"
+          android:text="@string/bookmenu"
+          android:textAlignment="center"
+          android:textSize="20sp" />
+   </LinearLayout>
+</RelativeLayout>
